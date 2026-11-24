@@ -1,0 +1,21 @@
+== 05_listen  Sun Nov 22 13:45:52 -0500 2026
+STEP listen on COM4 at 57600 baud for 6 s
+  read error: error reading "file2961fcb43c0": I/O error
+  read error: error reading "file2961fcb43c0": I/O error
+  received 805 bytes
+  | SMOKE C = [[22, 28], [9, 10]] PASS hw_cycles=3288 sw_cycles=9440
+  | CONV1 C = [[-1512, -20605], [-1689, -20555]] PASS hw_cycles=45900 sw_cycles=868614
+  | END ALL PASS
+  | SMOKE C = [[22, 28], [9, 10]] PASS hw_cycles=3288 sw_cycles=9440
+  | CONV1 C = [[-1512, -20605], [-1689, -20555]] PASS hw_cycles=45900 sw_cycles=868614
+  | END ALL PASS
+  | SMOKE C = [[22, 28], [9, 10]] PASS hw_cycles=3288 sw_cycles=9440
+  | CONV1 C = [[-1512, -20605], [-1689, -20555]] PASS hw_cycles=45900 sw_cycles=868614
+  | END ALL PASS
+  | SMOKE C = [[22, 28], [9, 10]] PASS hw_cycles=3288 sw_cycles=9440
+  | CONV1 C = [[-1512, -20605], [-1689, -20555]] PASS hw_cycles=45900 sw_cycles=868614
+  | END ALL PASS
+  | SMOKE C = [[22, 28], [9, 10]] PASS hw_cycles=3288 sw_cycles=9440
+  | CONV1 C = [[-1512, -20605], [-1689, -20555]] PASS hw_cycles=45900 sw_cycles=868614
+  | END ALL PASS
+RESULT: OK

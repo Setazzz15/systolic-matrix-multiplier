@@ -1,0 +1,12 @@
+== 07_board_test  Sun Nov 22 15:38:38 -0500 2026
+  serial port COM4 at 230400 baud
+ping: 'MXC2'
+selftest: SELFTEST PASS engine_row_cycles=1506 cpufed_cycles_for_1_of_16_filter_pairs=676579 first=12655
+upload w_q.bin: 2400 bytes, ack 'K', checksum ok, 121 ms
+upload img_q.bin: 3072 bytes, ack 'K', checksum ok, 160 ms
+mode 2 row 0: 1506 clocks of computing, 173 ms including transfer
+mode 2 row 27: 1506 clocks of computing, 176 ms including transfer
+mode 1 row 5: 1352410 clocks of computing, 191 ms including transfer
+mode 0 row 9: 7158937 clocks of computing, 319 ms including transfer
+all 30 rows: 5437 ms
+RESULT: OK

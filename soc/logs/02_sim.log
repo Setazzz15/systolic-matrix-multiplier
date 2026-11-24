@@ -1,0 +1,5 @@
+== 02_sim  Sun Nov 22 15:28:39 -0500 2026
+STEP export simulation scripts
+  sim dir: C:/Users/Sebastian/Matrix_multiplier/Matrix_multiplier.sim/sim_1/behav/xsim   files: compile.bat elaborate.bat simulate.bat
+STEP start C:/Users/Sebastian/Matrix_multiplier/Matrix_multiplier.sim/sim_1/behav/xsim/run_soc_sim.bat in the background
+RESULT: OK

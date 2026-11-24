@@ -1,0 +1,18 @@
+== 06_add_conv_engine  Sun Nov 22 14:33:33 -0500 2026
+STEP backup
+STEP add RTL
+STEP open block design
+STEP conv1 engine on SmartConnect M03
+STEP firmware version 2 in block RAM
+  Coe_File = ../../../../../../soc/fw2/firmware_v2.coe
+STEP validate with the engine
+STEP faster UART
+  UART setting 128000, divider 6, real baud rate 125000
+STEP address map
+  SEG_AXIConv_bd_0_reg0  offset 0x30000000  range 0x00001000
+  SEG_AXIMatrix_bd_0_reg0  offset 0x10000000  range 0x00001000
+  SEG_axi_uartlite_0_Reg  offset 0x20000000  range 0x00010000
+  SEG_axi_bram_ctrl_0_Mem0  offset 0x00000000  range 0x00010000
+STEP save and generate
+  design top: matrix_soc_wrapper   sim top: tb_matrix_soc
+RESULT: OK

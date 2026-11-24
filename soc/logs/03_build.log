@@ -1,0 +1,4 @@
+== 03_build  Sun Nov 22 15:30:00 -0500 2026
+top = matrix_soc_wrapper
+launched impl_1 to write_bitstream
+RESULT: OK

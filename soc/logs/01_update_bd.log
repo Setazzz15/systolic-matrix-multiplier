@@ -1,0 +1,28 @@
+== 01_update_bd  Sun Nov 22 13:33:32 -0500 2026
+STEP backup
+STEP rename Systolic_NxN.vh to .sv
+STEP open block design
+  module reference refresh: c:/Users/Sebastian/Matrix_multiplier/Matrix_multiplier.srcs/sources_1/bd/matrix_soc/ip/matrix_soc_AXIMatrix_bd_0_0/matrix_soc_AXIMatrix_bd_0_0.xci
+STEP block RAM address range 64K
+  segment: /picorv32_axi_0/mem_axi/SEG_axi_bram_ctrl_0_Mem0
+STEP block RAM stand-alone with init file
+  use_bram_block = Stand_Alone
+  Write_Depth_A = 16384
+  Write_Width_A = 32
+  Enable_32bit_Address = true
+  Load_Init_File = true
+  Coe_File = ../../../../../../soc/fw/firmware.coe
+STEP AXI UART Lite
+  UART baud = 57600
+STEP address map
+  SEG_axi_bram_ctrl_0_Mem0  offset 0x00000000  range 0x00010000
+  SEG_axi_uartlite_0_Reg  offset 0x20000000  range 0x00010000
+  SEG_AXIMatrix_bd_0_reg0  offset 0x10000000  range 0x00001000
+STEP validate and save
+STEP generate output products
+STEP HDL wrapper as top
+  wrapper: C:/Users/Sebastian/Matrix_multiplier/Matrix_multiplier.gen/sources_1/bd/matrix_soc/hdl/matrix_soc_wrapper.v
+STEP constraints
+STEP testbench
+  design top: matrix_soc_wrapper   sim top: tb_matrix_soc
+RESULT: OK

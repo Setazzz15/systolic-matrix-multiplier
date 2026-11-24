@@ -1,0 +1,6 @@
+== 04_program  Sun Nov 22 15:37:54 -0500 2026
+connect_hw_server: ERROR: [Labtoolstcl 44-586] Disconnect server connection, TCP:localhost:3121, before making a new one.
+
+open_hw_target: 
+programmed xc7a35t_0 with C:/Users/Sebastian/Matrix_multiplier/Matrix_multiplier.runs/impl_1/matrix_soc_wrapper.bit
+RESULT: OK

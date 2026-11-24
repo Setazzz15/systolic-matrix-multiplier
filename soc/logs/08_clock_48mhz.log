@@ -1,0 +1,14 @@
+== 08_clock_48mhz  Sun Nov 22 15:14:26 -0500 2026
+STEP backup
+STEP open block design
+STEP UART to a rate that is valid at both clock speeds
+STEP clocking wizard 12 -> 48 MHz
+  blocks moved to the 48 MHz clock: /picorv32_axi_0/clk /smartconnect_0/aclk /axi_bram_ctrl_0/s_axi_aclk /proc_sys_reset_0/slowest_sync_clk /axi_uartlite_0/s_axi_aclk /AXIMatrix_bd_0/s_axi_aclk /AXIConv_bd_0/s_axi_aclk
+STEP locked -> reset block
+STEP validate at 48 MHz
+  wizard output: 48000000 Hz
+STEP faster UART
+  UART setting 230400, divider 13, real baud rate 230769, PC should use 230400
+STEP save and generate
+  design top: matrix_soc_wrapper   sim top: tb_matrix_soc
+RESULT: OK
