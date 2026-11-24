@@ -1,0 +1,11 @@
+# Regenerate with: python gen_vectors.py
+vectors/
+# Simulator output
+xsim_work*/
+verilator_work/
+*.log
+
+# xsim leftovers
+*.jou
+*.pb
+*.wdb
